@@ -14,7 +14,7 @@ function Header() {
           alt="Kathiressan Image"
         />
         <div className="text-center text-2xl mt-2 sm:mt-3 lg:mt-8 sm:text-4xl font-extrabold font-mono text-blue-500">
-          <div>Hi, I'm</div>
+          <div>Hi, I&apos;m</div>
           <div className="w-max mx-auto border-b-4 text-blue-500 border-blue-500">
             Kathiressan
           </div>
