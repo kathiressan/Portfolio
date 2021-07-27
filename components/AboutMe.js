@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="flex flex-col py-4 bg-blue-500">
+    <div className="overflow-hidden flex flex-col py-4 bg-blue-500">
       <div className="text-center text-xl sm:text-2xl mb-12 text-white font-bold">
         About Me
       </div>

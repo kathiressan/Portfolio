@@ -8,7 +8,43 @@ module.exports = {
         112: "28rem",
         120: "30rem",
       },
-      // height: { 111: "112rem" },
+      keyframes: {
+        headertoptodown: {
+          "0%": {
+            transform: "translateY(-100%)",
+            opacity: 0,
+          },
+          "100%": {
+            transform: "translateY(0)",
+            opacity: 1,
+          },
+        },
+        headerleftright: {
+          "0%": {
+            transform: "translateX(-100%)",
+            opacity: 0,
+          },
+          "100%": {
+            transform: "translateX(0)",
+            opacity: 1,
+          },
+        },
+        headerrightleft: {
+          "0%": {
+            transform: "translateX(100%)",
+            opacity: 0,
+          },
+          "100%": {
+            transform: "translateX(0)",
+            opacity: 1,
+          },
+        },
+      },
+      animation: {
+        headertoptodown: "headertoptodown 1s ease-in-out",
+        headerleftright: "headerleftright 1s ease-in-out",
+        headerrightleft: "headerrightleft 1s ease-in-out",
+      },
     },
   },
   variants: {
@@ -16,3 +52,13 @@ module.exports = {
   },
   plugins: [],
 };
+
+// animation: {
+//   headertoptodown: "headertopdown 1s ease-in-out",
+// },
+// keyframes: {
+//   headertoptodown: {
+//     "0%": { transform: "translateY(-100%)" },
+//     "100%": { transform: "translateX(0)" },
+//   },
+// },
